@@ -13,12 +13,12 @@ pipeline {
             }
         }
         stage('Deploy') {
-            steps {
-                echo 'Deploying....'
                 input {
                     message "selam"
                     ok "Yes."
                 }
+            steps {
+                echo 'Deploying....'
             }
         }
     }
